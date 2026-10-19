@@ -13,19 +13,8 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
-    <h2 class="archive__item-title" itemprop="headline">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="margin-bottom: 2em; padding-bottom: 1.5em; border-bottom: 1px solid #eaecef;">
+    <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0.2em; margin-bottom: 0.4em;">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
@@ -35,8 +24,35 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+    <p style="margin-top: 0.2em; margin-bottom: 0.6em;">
+      <span style="display: inline-block; background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; padding: 2px 9px; border-radius: 4px; font-weight: 700; font-size: 0.88em;">
+        <i class="fas fa-microphone" style="margin-right: 5px;"></i>{{ post.type | default: "Talk" }}
+      </span>
+      {% if post.venue %}
+        <span style="margin-left: 8px; font-weight: 600; color: #1e293b;">{{ post.venue }}</span>
+      {% endif %}
+      {% if post.location %}
+        <span style="color: #64748b; font-size: 0.9em; margin-left: 6px;"><i class="fas fa-map-marker-alt" style="margin-right: 3px;"></i>{{ post.location }}</span>
+      {% endif %}
+      {% if post.date %}
+        <span style="color: #64748b; font-size: 0.9em; margin-left: 8px;"><i class="far fa-calendar-alt" style="margin-right: 4px;"></i>{{ post.date | date: '%B %d, %Y' }}</span>
+      {% endif %}
+    </p>
+
+    {% if teaser %}
+      <div class="archive__item-teaser" style="margin: 0.8em 0; max-width: 680px;">
+        <a href="{{ base_path }}{{ post.url }}">
+          <img src=
+            {% if teaser contains "://" %}
+              "{{ teaser }}"
+            {% else %}
+              "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+            {% endif %}
+            alt="{{ title }}" style="width: 100%; border-radius: 6px; border: 1px solid #e1e4e8; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
+        </a>
+      </div>
+    {% endif %}
+
+    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description" style="margin: 0.5em 0;">{{ post.excerpt | markdownify }}</p>{% endif %}
   </article>
 </div>

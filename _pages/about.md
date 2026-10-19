@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a Doctoral Researcher at the **Technical University of Munich (TUM)** in the [Physics-Based Deep Learning (PBDL) Group](https://ge.in.tum.de/) led by Prof. Nils Thürey. My research focuses on **Scientific Machine Learning**, specifically developing foundation models and scalable deep learning architectures (such as Transformers, Diffusion Models, and Graph Neural Networks) for **3D Neural PDE Solvers** and **Computational Fluid Dynamics (CFD)** on unstructured meshes.
+I am a Doctoral Researcher at the **Technical University of Munich (TUM)** in the [Physics-Based Deep Learning (PBDL) Group](https://ge.in.tum.de/) led by Prof. Nils Thürey. My research focuses on **Scientific Machine Learning**, specifically developing foundation models and scalable deep learning architectures for **3D Neural PDE Solvers** and **Computational Fluid Dynamics (CFD)** on unstructured meshes.
 
-I hold a strong academic background in Physics, Mathematics, and Computational Science, with first-author publications at top-tier AI conferences (**NeurIPS**, **ICLR**). I have extensive experience in high-performance computing (HPC) environments, distributed training, and multi-GPU cluster scaling for complex physical simulations.
+I hold a strong academic background in Physics, Mathematics, and Computational Science, with experience in high-performance computing (HPC) environments, distributed training, and multi-GPU cluster scaling for complex physical simulations.
 
 ---
 
@@ -42,4 +42,13 @@ I hold a strong academic background in Physics, Mathematics, and Computational S
 * **M.Sc. in Industrial Mathematics** (2023 – 2024)  
   *Universidad Carlos III de Madrid (UC3M)* — Grade: 9.4/10
 * **B.Sc. in Physics & B.Sc. in Mathematics (Double Degree)** (2018 – 2023)  
-  *University of Zaragoza* — Grade: 9.0/10, 25 Courses with Honours / Distinctions. Final year at TUM.
+  *University of Zaragoza* — Grade: 9.0/10. Final year at TUM Mathematics (Erasmus).
+
+---
+
+### Teaching Experience
+
+* **Practical Course: Computer Games Lab** *(Winter Semester 2026)*  
+  *Technical University of Munich (TUM)*, Department of Informatics
+* **Seminar: Deep Learning in Computer Graphics** *(Summer Semester 2026)*  
+  *Technical University of Munich (TUM)*, Department of Informatics
