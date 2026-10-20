@@ -27,7 +27,6 @@ I hold a strong academic background in Physics, Mathematics, and Computational S
 * **[Oct 2026]** Our paper [**Geometry Meets Physics: Data-Efficient Pre-Training for Unstructured Neural PDE Solvers**](https://arxiv.org/abs/2610.03363) has been accepted at **NeurIPS 2026**!
 * **[Sep 2026]** Gave an oral presentation on *Foundation Models for 3D PDEs* at the **International Symposium on AI and Fluid Mechanics** in Chania, Greece.
 * **[Jul 2026]** Delivered an oral presentation on *Guiding diffusion models to reconstruct flow fields from sparse data* at **WCCM-ECCOMAS 2026** in Munich.
-* **[Apr 2026]** Our paper [**Physics-Constrained Adaptive Flow Matching for Climate Downscaling**](https://arxiv.org/abs/2604.03459) was published in *Machine Learning: Earth*.
 * **[Jan 2026]** Our paper [**Guiding diffusion models to reconstruct flow fields from sparse data**](https://doi.org/10.1063/5.0304492) was published in *Physics of Fluids* ([Code on GitHub](https://github.com/tum-pbs/sparse-reconstruction)).
 * **[Oct 2025]** Completed M.Sc. in Computational Science and Engineering at TUM with **Distinction (Grade 1.3)**.
 
