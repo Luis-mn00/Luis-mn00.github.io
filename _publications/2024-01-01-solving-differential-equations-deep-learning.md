@@ -9,7 +9,7 @@ venue: 'European Journal of Physics'
 paperurl: 'https://doi.org/10.1088/1361-6404/ad0a9f'
 bibtexurl: '/files/pinn_guide_ejp2024.bib'
 header:
-  teaser: 'pinn-guide-ejp2024.png'
+  teaser: 'beginners_guide.png'
 citation: 'Luis Medrano-Navarro, Luis Martín Moreno, Sergio G. Rodrigo. (2024). &quot;Solving differential equations with deep learning: a beginner’s guide.&quot; <i>European Journal of Physics</i>, 45(1), 015803.'
 bibtex: |
   @article{medranonavarro2024solving,
@@ -31,8 +31,8 @@ bibtex: |
 **Links:** [DOI: 10.1088/1361-6404/ad0a9f](https://doi.org/10.1088/1361-6404/ad0a9f) | [arXiv:2307.11237](https://arxiv.org/abs/2307.11237) | [Download BibTeX](/files/pinn_guide_ejp2024.bib)
 
 <div style="text-align: center; margin: 1.5em 0;">
-  <img src="/images/pinn-guide-ejp2024.png" alt="Physics-Informed Neural Network prediction vs ground truth" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;">
-  <p style="font-size: 0.85em; color: #64748b; margin-top: 0.5em;"><em>Figure: Physics-Informed Neural Network (PINN) prediction and solution profile.</em></p>
+  <img src="/images/beginners_guide.png" alt="Physics-Informed Neural Network prediction vs ground truth" style="max-width: 80%; max-height: 440px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;">
+  <p style="font-size: 0.85em; color: #64748b; margin-top: 0.5em;"><em>Figure: Physics-Informed Neural Network (PINN) training dynamics, loss profiles, and analytical solution comparison across ODE and dynamical regimes.</em></p>
 </div>
 
 ### Abstract & Technical Contribution

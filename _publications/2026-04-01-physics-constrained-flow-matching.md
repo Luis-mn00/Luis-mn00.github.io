@@ -9,7 +9,7 @@ venue: 'Machine Learning: Earth'
 paperurl: 'https://arxiv.org/abs/2604.03459'
 bibtexurl: '/files/flow_matching_climate2026.bib'
 header:
-  teaser: 'climate-flow-matching.png'
+  teaser: 'physics_constrained_flow_matching.png'
 citation: 'Kevin Debeire, Aytaç Paçal, Pierre Gentine, Luis Medrano-Navarro, Nils Thuerey, Veronika Eyring. (2026). &quot;Physics-Constrained Adaptive Flow Matching for Climate Downscaling.&quot; <i>Machine Learning: Earth</i>.'
 bibtex: |
   @article{debeire2026physics,
@@ -27,8 +27,8 @@ bibtex: |
 **Links:** [arXiv:2604.03459](https://arxiv.org/abs/2604.03459) | [DOI: 10.48550/arXiv.2604.03459](https://doi.org/10.48550/arXiv.2604.03459) | [Download BibTeX](/files/flow_matching_climate2026.bib)
 
 <div style="text-align: center; margin: 1.5em 0;">
-  <img src="/images/climate-flow-matching.png" alt="Physics-Constrained Adaptive Flow Matching for Climate Downscaling visualization" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;">
-  <p style="font-size: 0.85em; color: #64748b; margin-top: 0.5em;"><em>Figure: High-resolution downscaling inferences produced by physics-constrained adaptive flow matching.</em></p>
+  <img src="/images/physics_constrained_flow_matching.png" alt="Physics-Constrained Adaptive Flow Matching for Climate Downscaling visualization" style="max-width: 80%; max-height: 460px; object-fit: contain; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;">
+  <p style="font-size: 0.85em; color: #64748b; margin-top: 0.5em;"><em>Figure: High-resolution downscaling inferences and error distributions produced by physics-constrained adaptive flow matching (PCAFM).</em></p>
 </div>
 
 ### Abstract & Technical Contribution

@@ -71,9 +71,9 @@ redirect_from:
 ## Presentations & Talks
 
 * **Oral Presentation:** *Foundation Models for 3D PDEs*  
-  *International Symposium on AI and Fluid Mechanics*, Chania, Greece (Sep. 2026)
+  *International Symposium on AI and Fluid Mechanics*, Chania, Greece (Sep. 2026) \| [[Poster PDF](/files/poster_greece.pdf)]
 * **Oral Presentation:** *Guiding diffusion models to reconstruct flow fields from sparse data*  
-  *WCCM-ECCOMAS 2026*, Munich, Germany (July 2026)
+  *WCCM-ECCOMAS 2026*, Munich, Germany (July 2026) \| [[Slides PDF](/files/eccomas_2026-3.pdf)]
 
 ---
 

@@ -26,7 +26,7 @@ bibtex: |
 **Links:** [arXiv:2610.03363](https://arxiv.org/abs/2610.03363) | [Download BibTeX](/files/gmp_neurips2026.bib)
 
 <div style="text-align: center; margin: 1.5em 0;">
-  <img src="/images/gmp-neurips2026.png" alt="Geometry Meets Physics - Absolute Error comparison on 3D aircraft mesh (ScrGMP vs GMP)" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;">
+  <img src="/images/gmp-neurips2026.png" alt="Geometry Meets Physics - Absolute Error comparison on 3D aircraft mesh (ScrGMP vs GMP)" style="max-width: 80%; max-height: 440px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;">
   <p style="font-size: 0.85em; color: #64748b; margin-top: 0.5em;"><em>Figure: Absolute error comparison on complex 3D aerodynamic geometries. Pre-training with Geometry Meets Physics (GMP) significantly suppresses surface error and accelerates convergence compared to training from scratch (ScrGMP).</em></p>
 </div>
 

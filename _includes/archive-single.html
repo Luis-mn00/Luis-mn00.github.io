@@ -40,7 +40,7 @@
     {% endif %}
 
     {% if teaser %}
-      <div class="archive__item-teaser" style="margin: 0.8em 0; max-width: 680px;">
+      <div class="archive__item-teaser" style="margin: 0.8em 0; max-width: 500px;">
         <a href="{{ base_path }}{{ post.url }}">
           <img src=
             {% if teaser contains "://" %}
@@ -48,7 +48,7 @@
             {% else %}
               "{{ teaser | prepend: "/images/" | prepend: base_path }}"
             {% endif %}
-            alt="{{ title }}" style="width: 100%; border-radius: 6px; border: 1px solid #e1e4e8; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
+            alt="{{ title }}" style="width: 100%; max-height: 300px; object-fit: contain; border-radius: 6px; border: 1px solid #e1e4e8; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
         </a>
       </div>
     {% endif %}

@@ -10,7 +10,7 @@ paperurl: 'https://doi.org/10.1063/5.0304492'
 codeurl: 'https://github.com/tum-pbs/sparse-reconstruction'
 bibtexurl: '/files/guided_diffusion_pof2026.bib'
 header:
-  teaser: 'sparse-diffusion-pof2026.png'
+  teaser: 'sparse_data_recons.png'
 citation: 'Marc Amorós-Trepat*, Luis Medrano-Navarro*, Qiang Liu, Luca Guastoni, Nils Thuerey. (2026). &quot;Guiding diffusion models to reconstruct flow fields from sparse data.&quot; <i>Physics of Fluids</i>, 38(1), 015112. (*Equal contribution).'
 bibtex: |
   @article{amorostrepat2026guiding,
@@ -32,8 +32,8 @@ bibtex: |
 **Links:** [DOI: 10.1063/5.0304492](https://doi.org/10.1063/5.0304492) | [arXiv:2510.19971](https://arxiv.org/abs/2510.19971) | [GitHub Repository](https://github.com/tum-pbs/sparse-reconstruction) | [Download BibTeX](/files/guided_diffusion_pof2026.bib)
 
 <div style="text-align: center; margin: 1.5em 0;">
-  <img src="/images/sparse-diffusion-pof2026.png" alt="Guided diffusion reconstruction of 3D turbulent flow fields" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;">
-  <p style="font-size: 0.85em; color: #64748b; margin-top: 0.5em;"><em>Figure: Guided diffusion reconstructing high-fidelity 3D turbulent flow fields from sparse sensor measurements.</em></p>
+  <img src="/images/sparse_data_recons.png" alt="Guided diffusion reconstruction of flow fields from sparse sensor measurements" style="max-width: 75%; max-height: 480px; object-fit: contain; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); border: 1px solid #e2e8f0;">
+  <p style="font-size: 0.85em; color: #64748b; margin-top: 0.5em;"><em>Figure: Qualitative reconstruction comparisons across interpolation baselines, supervised learning, and our masked/guided diffusion model against the ground truth reference flow fields.</em></p>
 </div>
 
 ### Abstract & Technical Contribution

@@ -40,7 +40,7 @@
     </p>
 
     {% if teaser %}
-      <div class="archive__item-teaser" style="margin: 0.8em 0; max-width: 680px;">
+      <div class="archive__item-teaser" style="margin: 0.8em 0; max-width: 500px;">
         <a href="{{ base_path }}{{ post.url }}">
           <img src=
             {% if teaser contains "://" %}
@@ -48,11 +48,19 @@
             {% else %}
               "{{ teaser | prepend: "/images/" | prepend: base_path }}"
             {% endif %}
-            alt="{{ title }}" style="width: 100%; border-radius: 6px; border: 1px solid #e1e4e8; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
+            alt="{{ title }}" style="width: 100%; max-height: 320px; object-fit: contain; border-radius: 6px; border: 1px solid #e1e4e8; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
         </a>
       </div>
     {% endif %}
 
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description" style="margin: 0.5em 0;">{{ post.excerpt | markdownify }}</p>{% endif %}
+
+    {% if post.pdfurl %}
+      <div class="archive__item-actions" style="margin-top: 0.8em; margin-bottom: 0.4em;">
+        <a href="{{ post.pdfurl }}" download class="btn btn--danger" style="font-size: 0.82em; padding: 4px 10px; margin-right: 6px;">
+          <i class="fas fa-file-pdf" style="margin-right: 4px;"></i> {{ post.pdf_label | default: "Download PDF" }}
+        </a>
+      </div>
+    {% endif %}
   </article>
 </div>

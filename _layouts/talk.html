@@ -35,7 +35,19 @@ layout: default
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
         {% endif %}
-        {% if page.talk_type %}<p>{{page.talk_type}} at {{ page.venue }},  {{page.location}} {% endif %}
+        {% if page.type %}
+          <p><strong>{{ page.type }}</strong> at {{ page.venue }}{% if page.location %}, {{ page.location }}{% endif %}</p>
+        {% elsif page.talk_type %}
+          <p><strong>{{ page.talk_type }}</strong> at {{ page.venue }}{% if page.location %}, {{ page.location }}{% endif %}</p>
+        {% endif %}
+
+        {% if page.pdfurl %}
+          <p style="margin-top: 0.8em; margin-bottom: 1em;">
+            <a href="{{ page.pdfurl }}" download class="btn btn--danger" style="font-size: 0.88em; padding: 6px 14px;">
+              <i class="fas fa-file-pdf" style="margin-right: 6px;"></i>{{ page.pdf_label | default: "Download PDF" }}
+            </a>
+          </p>
+        {% endif %}
 
         </header>
       {% endunless %}
